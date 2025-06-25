@@ -75,7 +75,7 @@ Total: 1.9Gi | Available: 1.1Gi
 564M /home/kali/Desktop/burpsuite/xxx.zip
 ...
 22M  /home/kali/.cache/mozilla/firefox/xxx.default/cache2/entries/...
-```markdown
+```
 
 ⚙️ Usage
 
@@ -86,16 +86,16 @@ sudo ./info_extractor.sh
     ⚠️ Script must be run as root to access full system information.
 
 📁 Project Details
-Field	Value
-Student Name	MR-SUDA
-Program Code	(fill in if needed)
-Class Code	RTX
-Lecturer	Shiffman David
+Student Name	              - MR-SUDA
+Program Code	              - XXX
+Class Code	                - RTX
+Lecturer	                  - Shiffman David
 Project	Linux Fundamentals - Info Extractor
+
 📄 License
 
 This project is released for educational purposes.
-Feel free to fork, improve, and share — credits appreciated. 🖤
+Feel free to fork, improve, and share. Credits will be appreciated 🖤
 
 
 ---
