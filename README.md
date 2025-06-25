@@ -81,8 +81,9 @@ Total: 1.9Gi | Available: 1.1Gi
 
 ### Clone the repository or download the script
 
+    ⚠️ Script must be run as root to access full system information.
+
 ```bash
-⚠️ Script must be run as root to access full system information.
 wget https://raw.githubusercontent.com/MR-Suda/Info-Extractor/main/INFO_EXTRACTOR.sh
 chmod +x INFO_EXTRACTOR.sh
 sudo ./INFO_EXTRACTOR.sh
