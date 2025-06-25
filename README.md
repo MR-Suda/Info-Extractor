@@ -77,7 +77,7 @@ Total: 1.9Gi | Available: 1.1Gi
 22M  /home/kali/.cache/mozilla/firefox/xxx.default/cache2/entries/...
 ```
 
-⚙️ Usage
+## ⚙️ Usage
 
 # Clone the repository or download the script
 chmod +x info_extractor.sh
@@ -85,14 +85,14 @@ sudo ./info_extractor.sh
 
     ⚠️ Script must be run as root to access full system information.
 
-📁 Project Details
+## 📁 Project Details
 Student Name	              - MR-SUDA
 Program Code	              - XXX
 Class Code	                - RTX
 Lecturer	                  - Shiffman David
 Project	Linux Fundamentals - Info Extractor
 
-📄 License
+## 📄 License
 
 This project is released for educational purposes.
 Feel free to fork, improve, and share. Credits will be appreciated 🖤
