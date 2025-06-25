@@ -22,6 +22,7 @@
 
 ## 📟 Terminal View
 
+```text
 ┌────────────────────────────────────────────────────────────────────────────────┐
 │  ___ _   _ _____ ___    _______  _______ ____      _    ____ _____ ___  ____   │
 │ |_ _| \ | |  ___/ _ \  | ____\ \/ /_   _|  _ \    / \  / ___|_   _/ _ \|  _ \  │
@@ -38,18 +39,18 @@
 
 [ ================== Private IP ================= ]
 
-192.168.80.xxx
+192.168.xxx.xxx
 
 [ ===================== MAC ===================== ]
 
-00:0c:29:ae:91:fa
+00:0c:xx:xx:xx:xx
 
 [ ================== OS System ================== ]
 
 Distro - Kali GNU/Linux Rolling
-Kernel - 6.12.20-amd64
+Kernel - 6.xx.xx-amd64
 Arch   - x86_64
-Uptime - up 1 hour, 30 minutes
+Uptime - up xx hour, xx minutes
 
 [ ============= Top 5 CPU Processes ============= ]
 
@@ -70,14 +71,10 @@ Total: 1.9Gi | Available: 1.1Gi
 
 [ === TOP-10 Largest Files in /home Directory === ]
 
-566M /home/kali/Desktop/burpsuite/burpsuite_pro_v2023.2.2.jar
-564M /home/kali/Desktop/burpsuite/burpsuite_pro_v2023.2.2.zip
+566M /home/kali/Desktop/burpsuite/xxx.jar
+564M /home/kali/Desktop/burpsuite/xxx.zip
 ...
 22M  /home/kali/.cache/mozilla/firefox/xxx.default/cache2/entries/...
-
-[ =============== System Services =============== ]
-
-Would you like to see the list of active system services with their status? [Y/N] -
 
 ⚙️ Usage
 
