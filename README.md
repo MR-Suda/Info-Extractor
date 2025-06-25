@@ -1,0 +1,103 @@
+# 🧠 INFO EXTRACTOR
+
+> **A Linux system information collector script written in Bash**  
+> 📁 Project for *Linux Fundamentals* | 🧑‍🎓 By **MR-SUDA** | 🎓 Lecturer: Shiffman David
+
+---
+
+## 🧰 Features
+
+- ✅ Root privilege check
+- ✅ Tool installation check (`dialog`)
+- ✅ Beautiful ASCII + colorized banner
+- ✅ Public / Private IP detection
+- ✅ MAC address info
+- ✅ OS details (Distro, Kernel, Architecture, Uptime)
+- ✅ Top 5 CPU-hungry processes
+- ✅ Memory usage (with ASCII bars)
+- ✅ Top-10 largest files in `/home`
+- ✅ Optional system services overview
+
+---
+
+## 📟 Terminal View
+
+┌────────────────────────────────────────────────────────────────────────────────┐
+│  ___ _   _ _____ ___    _______  _______ ____      _    ____ _____ ___  ____   │
+│ |_ _| \ | |  ___/ _ \  | ____\ \/ /_   _|  _ \    / \  / ___|_   _/ _ \|  _ \  │
+│  | ||  \| | |_ | | | | |  _|  \  /  | | | |_) |  / _ \| |     | || | | | |_) | │
+│  | || |\  |  _|| |_| | | |___ /  \  | | |  _ <  / ___ \ |___  | || |_| |  _ <  │
+│ |___|_| \_|_|   \___/  |_____/_/\_\ |_| |_| \_\/_/   \_\____| |_| \___/|_| \_\ │
+│                                                                             │
+│ Date: 2025-06-25 19:19:56               By MR-SUDA                         │
+└────────────────────────────────────────────────────────────────────────────────┘
+
+[ ================== Public IP ================== ]
+
+46.xxx.xxx.xxx
+
+[ ================== Private IP ================= ]
+
+192.168.80.xxx
+
+[ ===================== MAC ===================== ]
+
+00:0c:29:ae:91:fa
+
+[ ================== OS System ================== ]
+
+Distro - Kali GNU/Linux Rolling
+Kernel - 6.12.20-amd64
+Arch   - x86_64
+Uptime - up 1 hour, 30 minutes
+
+[ ============= Top 5 CPU Processes ============= ]
+
+ PID COMMAND         %CPU
+1052 Xorg            4.8
+55414 qterminal      1.6
+55421 zsh            1.3
+1379 xfwm4           0.4
+1438 wrapper-2.0     0.2
+
+   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  8%
+
+[ ================ Memory Usage ================= ]
+
+Total: 1.9Gi | Available: 1.1Gi
+
+   ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  46%
+
+[ === TOP-10 Largest Files in /home Directory === ]
+
+566M /home/kali/Desktop/burpsuite/burpsuite_pro_v2023.2.2.jar
+564M /home/kali/Desktop/burpsuite/burpsuite_pro_v2023.2.2.zip
+...
+22M  /home/kali/.cache/mozilla/firefox/xxx.default/cache2/entries/...
+
+[ =============== System Services =============== ]
+
+Would you like to see the list of active system services with their status? [Y/N] -
+
+⚙️ Usage
+
+# Clone the repository or download the script
+chmod +x info_extractor.sh
+sudo ./info_extractor.sh
+
+    ⚠️ Script must be run as root to access full system information.
+
+📁 Project Details
+Field	Value
+Student Name	MR-SUDA
+Program Code	(fill in if needed)
+Class Code	RTX
+Lecturer	Shiffman David
+Project	Linux Fundamentals - Info Extractor
+📄 License
+
+This project is released for educational purposes.
+Feel free to fork, improve, and share — credits appreciated. 🖤
+
+
+---
